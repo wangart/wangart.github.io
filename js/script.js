@@ -4,7 +4,6 @@ $(document).ready(function() {
             var pluginContainer = $(this);
             $('.arrow').effect('bounce',5000);
             $( ".header" ).hide();
-            $('.first').addClass('button--highlighted');
         },
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
@@ -19,6 +18,25 @@ $(document).ready(function() {
             var leavingSection = $(this);
             if(index == 2 && direction =='up'){
                 $( ".header" ).slideUp(500);
+            }
+        },
+        afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
+            var loadedSlide = $(this);
+            if(index == 2 && slideIndex == 1){
+                $(".button").removeClass('button--highlighted');
+                $('.second').addClass('button--highlighted');
+            }
+            else if(index == 2 && slideIndex == 2){
+                $(".button").removeClass('button--highlighted');
+                $('.third').addClass('button--highlighted');
+            }
+            else if(index == 2 && slideIndex == 3){
+                $(".button").removeClass('button--highlighted');
+                $('.fourth').addClass('button--highlighted');
+            }
+            else {
+                $(".button").removeClass('button--highlighted');
+                $('.first').addClass('button--highlighted');
             }
         },
         //Navigation
