@@ -1,2 +1,5 @@
 # wangart.github.io
-Personal Website
+Personal Website for Arthur Wang
+
+WIP
+
