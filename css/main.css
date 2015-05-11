@@ -1,27 +1,37 @@
+.arsenal{
+	margin-top: 50px;
+}
 
 .awang {
 	max-width: 60%;
 	height: auto;
 	border-radius: 100%;
-	border: 3px solid #C0C0C0;
-	padding: 10px;
-  	box-shadow: 5px 5px 5px #C0C0C0;
+	padding: -1px;
+	border: 10px solid white;
 }
 
 .overlay {
 	max-width:30em;
 	text-align: center;
 	margin: 0 auto 0 auto;
+	color: white;
 }
 
-html {
-	background: url(../assets/background.jpg) no-repeat center center fixed;
+.bar{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	width: 100%;	z-index: 0;
+  	box-shadow: 20px 0 100px 10px white;
 }
-
-.page1 {
-	background-color: #FAFAFA;
-}
-
+.page1{
+	background: url("../assets/bgblur.jpg") center;
+	background-attachment: fixed;
+  		}
+.page2{
+	background: url("../assets/bg.jpg") center;
+	background-attachment: fixed;
+ }
 .name {
 	font-size: 30px;
 }
@@ -32,7 +42,7 @@ html {
 	margin:0 auto;
 	text-align: center;
 	background-color: #FAFAFA;
-  	box-shadow: 5px 5px 10px black;
+  	box-shadow: 5px 5px 5px black;
 }
 
 .header {
@@ -43,7 +53,7 @@ html {
 	width:100%;
 	background-color: #FAFAFA;
 	margin:0;
-	z-index:5
+	z-index:5;
 }
 
 .button{
@@ -59,7 +69,10 @@ html {
 .button:hover{
     border-bottom:solid black 2px;
 }
-
+.languages{
+	margin-left:20%;
+	text-align: left;
+}
 a{
 	color:black;
 }

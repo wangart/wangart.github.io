@@ -6,7 +6,8 @@
 /* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1409">Text with this font applied</p> */
 
 html {
-	font-family: 'SEGOEUIL' sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 100;
 }
 
 /* Font downloaded from FontsForWeb.com */

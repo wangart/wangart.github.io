@@ -11,7 +11,7 @@ $(document).ready(function() {
                 $( ".header" ).slideDown(500);
             }
             if(index == 1){
-                $(".arrow").effect('bounce',4000);
+                $(".arrow").effect('bounce',{distance:10},4000);
             }
         },
         onLeave: function(index, nextIndex, direction){
@@ -43,11 +43,9 @@ $(document).ready(function() {
         anchors:['home', 'about'],
         navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
         showActiveTooltips: false,
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
 
         //Scrolling
-        css3: true,
+        css3: false,
         scrollingSpeed: 1000,
         autoScrolling: true,
         fitToSection: true,
