@@ -4,33 +4,37 @@ $(document).ready(function() {
             var pluginContainer = $(this);
             $('.arrow').effect('bounce',5000);
             $( ".header" ).hide();
+            $( ".quickresume" ).hide();
+            $('.first').addClass('button--highlighted');
+            $( ".quickresume" ).slideDown(1000);
         },
         afterLoad: function(anchorLink, index){
             var loadedSection = $(this);
-            if(index == 2){
+            if(index == 3){
                 $( ".header" ).slideDown(500);
             }
-            if(index == 1){
+            if(index == 2){
                 $(".arrow").effect('bounce',{distance:10},4000);
             }
         },
         onLeave: function(index, nextIndex, direction){
             var leavingSection = $(this);
-            if(index == 2 && direction =='up'){
+            if(index == 3){
                 $( ".header" ).slideUp(500);
+            } else if (index == 2){
             }
         },
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
             var loadedSlide = $(this);
-            if(index == 2 && slideIndex == 1){
+            if(slideIndex == 1){
                 $(".button").removeClass('button--highlighted');
                 $('.second').addClass('button--highlighted');
             }
-            else if(index == 2 && slideIndex == 2){
+            else if(slideIndex == 2){
                 $(".button").removeClass('button--highlighted');
                 $('.third').addClass('button--highlighted');
             }
-            else if(index == 2 && slideIndex == 3){
+            else if(slideIndex == 3){
                 $(".button").removeClass('button--highlighted');
                 $('.fourth').addClass('button--highlighted');
             }
@@ -40,7 +44,7 @@ $(document).ready(function() {
             }
         },
         //Navigation
-        anchors:['home', 'about'],
+        anchors:['resume'   ,'home', 'about'],
         navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
         showActiveTooltips: false,
 

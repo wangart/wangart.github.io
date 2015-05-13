@@ -1,7 +1,41 @@
-.arsenal{
-	margin-top: 50px;
+.cover {
+	width:100%;
+	height: 100%;
+	box-shadow: 5px 45px 100px 5px black;
+	background-color: white;
+	z-index:1;
+}
+.resume{
+	background-color: #FAFAFA;
 }
 
+.outer{
+	padding: 0 5px 5px 5px;
+	overflow:hidden;
+}
+.quickresume{
+	position: absolute;
+	text-align: center;
+	width:100px;
+	left:50%;
+	top:-10px;
+	height:8%;
+	z-index: 2;
+	margin-left: -50px;
+	background-color: #FAFAFA;
+	border-radius: 8%;
+  	box-shadow: 0 0 5px black;
+  	overflow:hidden;
+}
+.resumetext{
+	margin-top:12px;
+}
+.details{
+	color:#a6a6a6;
+}
+.arsenal{
+	width:20%;
+}
 .awang {
 	max-width: 60%;
 	height: auto;
@@ -32,17 +66,24 @@
 	background: url("../assets/bg.jpg") center;
 	background-attachment: fixed;
  }
+ .table p{
+ 	margin:0 10% 5%;
+ }
 .name {
 	font-size: 30px;
 }
 
 .table{
-	height:80%;	
+	height:80%;
 	width:80%;
 	margin:0 auto;
 	text-align: center;
 	background-color: #FAFAFA;
-  	box-shadow: 5px 5px 5px black;
+  	box-shadow: 5px 5px 100px 5px black;
+}
+
+ul{
+	col
 }
 
 .header {
@@ -59,7 +100,7 @@
 .button{
 	text-align: center;
 	/*border:black solid;*/
-	padding:2px 0 2px 0;
+	padding:6px 0 2px 0;
 	display:inline-block;
 	width:20%;
 }
@@ -73,19 +114,19 @@
 	margin-left:20%;
 	text-align: left;
 }
-a{
-	color:black;
-}
 a:link {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    text-decoration: none;    
+    text-decoration: none;
+    color: black;
 }
 
 .arrow{
@@ -99,9 +140,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 360px) {
-   h1{
-   	font-size: 0.8em;
-   }
+   h1{	font-size: 0.8em; }
    a { font-size: 0.8em; }
-
+   p{ font-size: 0.8em}
+   .table p{ margin: 5% 5% 5%; }
+   .arsenal {width:100px;}
 }

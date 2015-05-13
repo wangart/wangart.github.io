@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
   <head>
   	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +16,20 @@
   </head>
   <body>
   	<div id="fullpage">
+      <div class ="section resume">
+        <div class = "cover"></div>
+      </div>
 	  	<div class = "section page1">
-		  	<div class = "overlay">
+        <div class = "outer">
+          <div class ="quickresume">
+            <a href="#resume" class = "innerslider">
+                <div class="resumetext">Go Straight to Resume</div>
+            </a>
+          </div>
+        </div>
+        <div class = "overlay">
 				<h1 class = "title">
-					Welcome to the Homepage of 
+					Welcome to the Homepage of
 					<div class ="name"> Arthur Wang </div>
 				</h1>
         <img class = "awang" src="assets/awang.jpg"/></img>
@@ -40,7 +50,7 @@
           <a href="#about">
             <li class ="button first">
               About
-            </li> 
+            </li>
           </a>
           <a href="#about/1">
             <li class ="button second">
@@ -63,11 +73,13 @@
             <h2 class="head">
               About Me
             </h2>
-            <p>
+            <p class = "details">
               Thank you for stumbling upon my webpage. I am a second year Computing and Financial Management student that recently switched over from Math/Chartered Professional Accountancy to pursue my (late) childhood dream of Software Engineering. Through my background in both leadership and technical experiences, I bring a diverse skill set centered around genuine passion for the Tech industry.
+            <br>
+            <br>
               Also an Arsenal fan and diehard Gooner.
             </p>
-            <img class = "arsenal" src="assets/arsenal.png" width="100">
+            <img class = "arsenal" src="assets/arsenal.png">
           </div>
         </div>
         <div class="slide">
@@ -75,20 +87,21 @@
             <h2 class="head">
               Skills
             </h2>
-            <p>
-              <ul class = "languages">
-                <li>C++</li> 
+              <div 
+              <ul class = "details languages">
+                <li>C++</li>
                 <li>C</li>
                 <li>Actionscript</li>
                 <li>Java</li>
                 <li>Scheme</li>
                 <li>Objective C</li>
-                <li>Python</li>         
+                <li>Python</li>
               </ul>
-            </p>
-              <div>
+            <a href="">
+              <div class="extra projects">
                 Checkout my projects!
               </div>
+            </a>
           </div>
         </div>
         <div class="slide">
@@ -113,4 +126,3 @@
 	 </div>
   </body>
 </html>
-
