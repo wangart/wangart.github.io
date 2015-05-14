@@ -10,15 +10,20 @@
 	font-size: 3em;
 	text-align: center;
 }
+.projects{
+	margin-top: 10%;
+	padding:12px 16px;
+}
 
-.resume-button {
-	margin-top:40%;
+.resum{
+	padding:27px 60px;
+}
+.link {
 	font-size:18px;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
 	border-radius:2px;
 	border:1px solid #dcdcdc;
-	padding:27px 60px;
 	text-decoration:none;
 	background:-moz-linear-gradient( center top, #ffffff 5%, #f6f6f6 100% );
 	background:-ms-linear-gradient( top, #ffffff 5%, #f6f6f6 100% );
@@ -30,14 +35,15 @@
 	text-shadow:1px 1px 0px #ffffff;
  	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
  	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
- 	box-shadow:inset 0px 0px 0px 0px #ffffff;
-}.resume-button:hover {
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+}
+.link:hover {
 	background:-moz-linear-gradient( center top, #f6f6f6 5%, #ffffff 100% );
 	background:-ms-linear-gradient( top, #f6f6f6 5%, #ffffff 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff');
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #f6f6f6), color-stop(100%, #ffffff) );
-	background-color:#f6f6f6;
-}.resume-button:active {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #f6f6f6), color-stop(100%, #ffffff) );	background-color:#f6f6f6;
+}
+.link:active {
 	position:relative;
 	top:1px;
 }
@@ -117,7 +123,7 @@
 	margin:0 auto;
 	text-align: center;
 	background-color: #FAFAFA;
-  	box-shadow: 5px 5px 100px 5px black;
+  box-shadow: 5px 5px 100px 5px black;
 }
 
 
@@ -180,4 +186,29 @@ a:hover {
    p{ font-size: 0.8em}
    .table p{ margin: 5% 5% 5%; }
    .arsenal {width:100px;}
+}
+
+.container{
+	width: 100%;
+	text-align: center;
+}
+
+.app-pic {
+	width:150px;
+	height:150px;
+}
+
+.app-details{
+	margin:0 20px;
+}
+
+.app-card{
+	width:250px;
+	height:350px;
+	background-color: #FAFAFA;
+	margin:20px 20px;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 5px 5px 5px #a6a6a6;
+	opacity:0;
 }

@@ -16,12 +16,16 @@ $(document).ready(function() {
             if(index == 2){
                 $(".arrow").effect('bounce',{distance:10},4000);
             }
+            if(index == 4){
+              $(".app-card").each(function(i) {
+                  $(this).delay(400*i).fadeTo(800,1);
+              });
+            }
         },
         onLeave: function(index, nextIndex, direction){
             var leavingSection = $(this);
             if(index == 3){
                 $( ".header" ).slideUp(500);
-            } else if (index == 2){
             }
         },
         afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
@@ -44,7 +48,7 @@ $(document).ready(function() {
             }
         },
         //Navigation
-        anchors:['resume'   ,'home', 'about'],
+        anchors:['resume'   ,'home', 'about','projects'],
         navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
         showActiveTooltips: false,
 
@@ -61,7 +65,7 @@ $(document).ready(function() {
         loopHorizontal: true,
         continuousVertical: false,
         normalScrollElements: '#element1, .element2',
-        scrollOverflow: false,
+        scrollOverflow: true,
         touchSensitivity: 15,
         normalScrollElementTouchThreshold: 5,
         controlArrows: false
