@@ -226,3 +226,9 @@ a:hover {
 	box-shadow: 5px 5px 5px #a6a6a6;
 	opacity:0;
 }
+
+@media (max-height: 700px) {
+  .notimportant{
+		visibility:hidden;
+	}
+}
