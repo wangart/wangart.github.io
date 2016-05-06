@@ -1,267 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,height=device-height, maximum-scale=1.0, user-scalable=no">
-    <meta name="HandheldFriendly" content="true"/>
-    <link rel='stylesheet' type='text/css' href='css/main.css'/>
-    <link rel='stylesheet' type='text/css' href='fonts/font.css'/>
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
-    <script language="JavaScript" type="text/javascript" src="js/jquery-1.11.2.js"></script>
-    <script language="JavaScript" type='text/javascript' src='js/jquery-ui.min.js'></script>
-    <script language="JavaScript" type='text/javascript' src='js/jquery.fullPage.min.js'></script>
-    <script language="JavaScript" type='text/javascript' src='js/jquery.slimscroll.min.js'></script>
-    <script language="JavaScript" type='text/javascript' src='js/script.js'></script>
-  </head>
-  <body>
-  	<div id="fullpage">
-      <div class ="section resume">
-        <div class = "cover">
-          <h1 class = "resume-title">
-            Resume
-          </h1>
-          <h3 class = "date">
-            Last Updated: May 12th, 2015
-          </h3>
-          <a href="resume/resume.pdf" class="link resum">Click Me</a>
-        </div>
-      </div>
-	  	<div class = "section page1 active">
-          <div class ="link quickresume">
-            <a href="#resume">
-                <div class="resumetext">Go Straight to Resume</div>
-            </a>
-        </div>
-        <div class = "overlay">
-				<h1 class = "title">
-					Welcome to the Homepage of
-					<div class ="name"> Arthur Wang </div>
-				</h1>
-        <img class = "awang" src="assets/awang.jpg"/></img>
-        <h1 class = "description">
-          2B | Computing and Financial Management
-        </h1>
-        <div class ="arrow">
-          <a href="#about">
-            <img src="assets/downarrow.svg" width="100">
-          </a>
-        </div>
-			 </div>
-         <div class ="bar">
-         </div>
-      </div>
-      <div class="section page2">
-        <ul class ="header">
-          <a href="#about">
-            <li class ="button first">
-              About
-            </li>
-          </a>
-          <a href="#about/1">
-            <li class ="button second">
-            Skills
-            </li>
-          </a>
-          <a href="#about/2">
-            <li class ="button third">
-              Experience
-            </li>
-          </a>
-          <a href="#about/3">
-            <li class ="button fourth">
-              Contact
-            </li>
-          </a>
-        </ul>
-        <div class = "bottom-tab">
-        <a href="#projects">
-          <div class="link projects">
-            Checkout my projects!
-          </div>
-        </a>
-        </div>
-        <div class="slide">
-          <div class="table">
-            <h2 class="head">
-              About Me
-            </h2>
-            <p class = "details">
-              Thank you for stumbling upon my webpage. I am a second year Computing and Financial Management student that recently switched over from Math/Chartered Professional Accountancy to pursue my (late) childhood dream of Software Engineering. Through my background in both leadership and technical experiences, I bring a diverse skill set centered around genuine passion for the Tech industry.
-            <br>
-            <br>
-              Also an Arsenal fan and soccer lover.
-            </p>
-            <img class = "arsenal" src="assets/arsenal.png">
-          </div>
-        </div>
-        <div class="slide">
-          <div class="table">
-            <h2 class="head">
-              Skills
-            </h2>
-            <h3>
-              Programming
-            </h3>
-              <ul class = "details languages">
-                <li>C++</li>
-                <li>C</li>
-                <li>Javascript</li>
-                <li>Java</li>
-                <li>Scheme</li>
-                <li>Bash</li>
-                <li>Python</li>
-                <li>Git</li>
-                <li>Actionscript</li>
-              </ul>
-              <div class = "notimportant">
-            <h3>
-              Leadership
-            </h3>
-            <ul class = "details languages">
-              <li>Vice President of Internal Events in Accounting and Finance Student Society</li>
-              <li>Former Executive at Ace Consulting Group</li>
-              <li>Coordinator at Hack the North</li>
-              <li>Co-Founder of SJAM Key Club</li>
-            </ul>
-          </div>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="table">
-            <h2 class="head">
-              Experiences
-            </h2>
-            <p class = "details">
-                I've worked as a software engineer, a consultant, an auditor, a tax accountant, a marketing intern, and started various community initiatives. However, one thing that I've maintained across is the attachment and passion for technology and entrepreneurship. all these experience is the eagerness to learn new technologies and to apply it in creative new ways.
-            </p>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="table">
-            <h2 class="head">
-              Contact
-            </h2>
-          <p class = "details">
-            Arthur (Ya Se) Wang
-          <br>
-          <a href="mailto:arthur.yase.wang@gmail.com">
-            arthur.yase.wang@gmail.com
-          </a>
-          <br>
-            <a href="https://github.com/wangart">
-              Github
-            </a>
-          <br>
-            226-989-5188
-          </p>
-          </div>
-        </div>
-      </div>
-      <div class = "section page3">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Arthur Wang's Personal Website">
+    <meta name="author" content="Arthur Wang">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="tooltipster.css" />
 
-          <div class="container code">
-            <h1>
-              My Projects
-          </h1>
-            <br/ >
-            <br/ >
-            <div class="cards">
-              <a href = "https://github.com/wangart/mls-allstars">
-                <div class="app-card">
-                  <div>
-                    <h2 class="app-title">
-                      MLS All-Stars
-                    </h2>
-                  </div>
-                  <img class="app-pic" src="assets/mls.png">
-                  <p class="app-details">
-                    Built in Java in the Netbeans IDE.
-                    Lead Theirry Henry and the Redbulls or Robbie Keane and LA Galaxy against your friend or AI!
-                  </p>
-                </a>
-              </div>
-              <a href = "https://github.com/wangart/pin-breakout">
-              <div class="app-card">
-                <div>
-                  <h2 class="app-title">
-                      Pin-Breakout
-                  </h2>
-                </div>
-                  <img class="app-pic" src="assets/pinbreakout.png">
-                  <p class="app-details">
-                    Built in Java in the Netbeans IDE.
-                    Compete for the high score in a physics based game that uniquely combines pinball and breakout!
-                  </p>
-              </div>
-            </a>
-              <a href = "">
-              <div class="app-card">
-                <div>
-                  <h2 class="app-title">
-                      Building Builder
-                  </h2>
-                </div>
-                  <img class="app-pic" src="assets/coming-soon.jpg">
-                  <p class="app-details">
-                    Play a "Monopoly" clone with your favourite UW buildings and landmarks!
-                  </p>
-              </div>
-            </a>
-              <a href = "https://github.com/wangart/BarBuddies">
-              <div class="app-card">
-                <div>
-                  <h2 class="app-title">
-                      QuickChat
-                  </h2>
-                </div>
-                  <img class="app-pic" src="assets/coming-soon.jpg">
-                  <p class="app-details">
-                    A simple lightweight and customizable chat platform built to learn Node.JS and to use with friends
-                  </p>
-              </div>
-            </a>
-              <a href = "">
-              <div class="app-card">
-                <div>
-                  <h2 class="app-title">
-                    Coming Soon
-                  </h2>
-                </div>
-                  <img class="app-pic" src="assets/coming-soon.jpg">
-                  <p class="app-details">
-                  </p>
-              </div>
-            </a>
-              <a href = "">
-              <div class="app-card">
-                <div>
-                  <h2 class="app-title">
-                    Coming Soon
-                  </h2>
-                </div>
-                  <img class="app-pic" src="assets/coming-soon.jpg">
-                  <p class="app-details">
-                  </p>
-              </div>
-            </a>
-              <a href = "">
-              <div class="app-card">
-                <div>
-                  <h2 class="app-title">
-                      Coming Soon
-                  </h2>
-                </div>
-                  <img class="app-pic" src="assets/coming-soon.jpg">
-                  <p class="app-details">
-                  </p>
-              </div>
-            </a>
-          </div class="cards">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="typed.js.min"></script>
+    <script type="text/javascript" src="jquery.tooltipster.min.js"></script>
+    <script src="main.js"></script>
+
+    <title>Arthur Wang</title>
+  </head>
+
+  <body>
+    <div class="hero">
+      <div id="title">
+        <p class="hi">Hello there!</p>
+        <p class="myName">My <br> name is <br> Arthur</p>
+      </div>
+      <div class="header"></div>
+      <div class="title-container">
+        <span class="title-text"></span>
+      </div>
+      <div class="description-container">
+        <div class="description">
+          <ul>
+            <li>I am an <a href="https://ca.linkedin.com/in/arthur-ya-se-wang-297b8b85" target="_blank" title="Connect with me on Linkedin.">aspiring</a> software developer.</li>
+            <li>I like to think I have a pretty interesting set of <a href="resume/resume.pdf" target="_blank" title="Checkout my resume.">experiences</a> that has revolved around computer science in different ways.</li>
+            <li>Besides coding, I'm passionate about <a title="At all my coop terms, I have seeked to get involved in finding new talent. As VP of Internal Events for my school, I conducted well over 100 interviews for my committee.">organizational behaviour</a> and <a title="As someone who was lucky to benefit so much from the experiences and kindness of many people around me, I naturally became in love with any opportunity to learn or teach. I try to let the sharing of knowledge connect me to as many individuals as possible.">mentorship</a>.</li>
+            <li>In my spare time, I like to build <a href="https://github.com/wangart" target="_blank" title="Checkout my Github!">things</a> and play <a title="I'm a not so proud Gooner">soccer</a>. I'm also always open to a <a title="Send me a message." href="mailto:hello@arthurwang.me">converstion</a>.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="experiences">
+        <h1>Notable Experiences</h1>
+          <div class="experience-card htn">
+            Hack the North is Canada's largest Hackathon which attracts over 1000 hackers from all across the globe. Hackers are surrounded by great hardware, a host of industry leaders, world class mentors, and all they need to build. I'm responsible for finding great partnerships with tech companies to create the best possible learning experience for our attendees.
+          </div>
+          <div class="experience-card amazon">
+              AWS Lambda is a compute service where your code is ran in response to events. Most of my work revolved around implementing several ways of integration with third party partners to allow creative new ways to use Lambda.
+          </div>
+          <div class="experience-card prospect">
+            <div class="card-description">
+              Prospect is an enterprise sales tool. I built a specialized program to help sales employees automate many of their processes and track their their pipeline. I also developed a routine to help increase accuracy in email searches.
+            </div>
+          </div>
+          <div class="experience-card kpmg">
+            <div class="card-description">
+              At KPMG, I specialized in Technology clients and worked at the offices of several large tech companies as well as startups. Due to strong communication skills and my comfort in working with high level executives, I was trusted to run my own week-long audit as a first term coop.
+            </div>
           </div>
       </div>
-		</div>
-	 </div>
+    </div>
   </body>
 </html>

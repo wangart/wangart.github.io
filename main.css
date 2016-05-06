@@ -1,0 +1,151 @@
+.typed-cursor{
+    opacity: 1;
+    font-size: 100px;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+html {
+    font-family: Adobe;
+}
+
+.hero {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+}
+
+.title-container {
+    text-align: left;
+    margin-top: 30px;
+    vertical-align: top;
+    float: top;
+    height: 432px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.title-text {
+    width: 40%;
+    font-size: 100px;
+}
+
+.description {
+    margin-left: 80px;
+    display: none;
+    font-family: Adobe, 'Georgia', serif;
+}
+
+.description-container {
+    display: inline-block;
+    width: 0%;
+    text-align: left;
+}
+
+.experiences {
+    margin-top: 80px;
+    text-align:center;
+}
+
+.other-list {
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.experience-card {
+    width: 800px;
+    height: 350px;
+    margin:0 auto;
+    background-size: cover;
+    line-height: 40px;
+    font-family: Adobe Light;
+    padding: 45px 35px 0;
+    font-size: 18px;
+    color: transparent;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.experience-card:hover {
+    color: white;
+}
+
+.htn {
+    background-image: url("./img/htn.png");
+}
+
+.amazon {
+    background-image: url("./img/amazon.png");   
+}
+
+.prospect {
+    background-image: url("./img/prospect.png");   
+}
+
+.kpmg {
+    background-image: url("./img/kpmg.png");   
+}
+
+.description li {
+    margin-bottom: 60px;
+    font-size: 19px;
+}
+
+.description ul {
+    margin-top: 55px;
+}
+
+.other {
+    margin-top: 80px;
+}   
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+h1 {
+    font-family: Adobe, 'Georgia', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2, h3, h4 {
+    color: white;
+}
+
+h2 {
+
+}
+
+@font-face {
+    font-family: Adobe Light;
+    src: url(./Adobe-Garamond-Pro-Regular/Garamond Light.ttf);
+}
+
+@font-face {
+    font-family: Adobe;
+    src: url(./Adobe-Garamond-Pro-Regular/adobe-garamond-pro-regular.ttf);
+}
