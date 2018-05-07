@@ -12,6 +12,9 @@
     <link rel="stylesheet" type="text/css" href="tooltipster.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
     <script src="typed.js.min"></script>
     <script type="text/javascript" src="jquery.tooltipster.min.js"></script>
     <script src="main.js"></script>
@@ -20,6 +23,13 @@
   </head>
 
   <body>
+    <ul>
+      <li><a class="tooltip" title="Github" href="https://github.com/wangart"><img class="logo" src="img/github.svg"></a></li>
+      <li><a title="Linkedin" href="https://www.linkedin.com/in/arthuryasewang/"><img class="logo" src="img/linkedin.svg"></a></li>
+      <li><a title="Facebook" href="https://www.facebook.com/arthurwanger"><img class="logo" src="img/facebook.svg"></a></li>
+      <li><a title="Email" href="mailto:arthur.yase.wang@gmail.com"><img class="logo" src="img/email.svg"></a></li>
+      <li><a title="Resume" href="resume/resume.pdf"><img class="logo" src="img/resume.svg"></a></li>
+    </ul>
     <div class="hero">
       <div id="title">
         <p class="hi">Hello there!</p>
@@ -31,32 +41,103 @@
       </div>
       <div class="description-container">
         <div class="description">
-          <ul>
-            <li>I am an <a href="https://ca.linkedin.com/in/arthur-ya-se-wang-297b8b85" target="_blank" title="Connect with me on Linkedin.">aspiring</a> software developer.</li>
-            <li>I like to think I have a pretty interesting set of <a href="resume/resume.pdf" target="_blank" title="Checkout my resume.">experiences</a> that has revolved around computer science in different ways.</li>
-            <li>Besides coding, I'm passionate about <a title="At all my coop terms, I have seeked to get involved in finding new talent. As VP of Internal Events for my school, I conducted well over 100 interviews for my committee.">organizational behaviour</a> and <a title="As someone who was lucky to benefit so much from the experiences and kindness of many people around me, I naturally became in love with any opportunity to learn or teach. I try to let the sharing of knowledge connect me to as many individuals as possible.">mentorship</a>.</li>
-            <li>In my spare time, I like to build <a href="https://github.com/wangart" target="_blank" title="Checkout my Github!">things</a> and play <a title="I'm a not so proud Gooner">soccer</a>. I'm also always open to a <a title="Send me a message." href="mailto:hello@arthurwang.me">converstion</a>.</li>
-          </ul>
+          I am a Computer Science grad from the University of Waterloo. I am extremely intersted about uncovering insights from data.
+          In exploring this passion, I have worked as a data engineer, data scientist, and a PM.
+          <br><br>
+          When it comes to technology, I measure humanity's progress by how societies' less fortunate is impacted, not what's on the cutting edge. My goal is to develop the skills and resources to make an impact on this techonlogical front.
+          <br><br>
+          My recent readings in my spare time have been around tech history, economics, and sci-fi. I spend the rest of my time playing soccer.
+          <br><br>
+          Having grown up in quiet suburbs of Waterloo, I'm extremely excited to be traveling around Europe and Asia this summer!
         </div>
       </div>
+
       <div class="experiences">
         <h1>Notable Experiences</h1>
-          <div class="experience-card htn">
-            Hack the North is Canada's largest Hackathon which attracts over 1000 hackers from all across the globe. Hackers are surrounded by great hardware, a host of industry leaders, world class mentors, and all they need to build. I'm responsible for finding great partnerships with tech companies to create the best possible learning experience for our attendees.
-          </div>
-          <div class="experience-card amazon">
-              AWS Lambda is a compute service where your code is ran in response to events. Most of my work revolved around implementing several ways of integration with third party partners to allow creative new ways to use Lambda.
-          </div>
-          <div class="experience-card prospect">
+          <a class="experience-card yelp" href="https://engineeringblog.yelp.com/2016/07/billions-of-messages-a-day-yelps-real-time-data-pipeline.html">
+            <div class="card-description">
+              I PM'd the new Consumer Analytics & Metrics team where we built Yelp's internal experimentation platform. The specific component I was tasked with shipping is a Data Catalog tool to help Yelp's data users navigate the schemas of such a large company.
+            </div>
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">YELP</div>
+                <div class="position">Product Manager Intern</div>
+                <div class="dates">September 2017 - December 2017</div>
+              </div>
+            </div>
+          </a>
+          <a class="experience-card tile">
+            <div class="card-description" href="https://www.thetileapp.com/en-us/">
+              As one of the first product analysts, I regularly identified opportunities based on user data and drove product development. Over 4 months, I also built and trained a battery model to notify users of low battery life.
+            </div>
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">TILE INC.</div>
+                <div class="position">Data Science Intern</div>
+                <div class="dates">May 2017 - August 2017</div>
+              </div>
+            </div>
+          </a>
+          <a class="experience-card sc" href="https://www.datacoral.com/">
+            <div class="card-description">
+              I worked with a team providing Social Capital and its portfolio companies with the data infrastructure to support their data scientists and analysts. As the only full stack developer, I built a GraphQL/Relay/React app that allowed non-technical data users to configure their data infrastructure, abstracting away the complexity of AWS.
+            </div>
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">SOCIAL CAPITAL LLP</div>
+                <div class="position">Software Engineering Fellow</div>
+                <div class="dates">September 2017 - December 2017</div>
+              </div>
+            </div>
+          </a>
+          <a class="experience-card htn" href="https://hackthenorth.com/">
+            <div class="card-description">
+              Hack the North is Canada's largest Hackathon which attracts over 1000 hackers from all across the globe. I'm responsible for managing finances and creating partnerships with tech companies to create the best possible learning experience for our attendees.
+            </div>
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">HACK THE NORTH</div>
+                <div class="position">Director of Sponsorship/Finance</div>
+                <div class="dates">April 2015 - December 2016</div>
+              </div>
+            </div>
+          </a>
+          <a class="experience-card amazon" href="https://aws.amazon.com/lambda/">
+            <div class="card-description">
+              AWS Lambda is a compute service where your code is ran in response to events. Most of my work revolved around implementing several ways of integration with third party partners to allow new ways to trigger Lambda functions.
+            </div>
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">AMAZON.COM</div>
+                <div class="position">Software Development Engineer Intern, AWS Lambda</div>
+                <div class="dates">September 2015 - December 2015</div>
+              </div>
+            </div>
+          </a>
+          <a class="experience-card prospect" href="http://tryprospect.com/">
             <div class="card-description">
               Prospect is an enterprise sales tool. I built a specialized program to help sales employees automate many of their processes and track their their pipeline. I also developed a routine to help increase accuracy in email searches.
             </div>
-          </div>
-          <div class="experience-card kpmg">
-            <div class="card-description">
-              At KPMG, I specialized in Technology clients and worked at the offices of several large tech companies as well as startups. Due to strong communication skills and my comfort in working with high level executives, I was trusted to run my own week-long audit as a first term coop.
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">PROSPECT</div>
+                <div class="position">Software Developer Intern</div>
+                <div class="dates">April 2015 - September 2015</div>
+              </div>
             </div>
-          </div>
+          </a>
+          <a class="experience-card kpmg" href="https://home.kpmg.com/ca/en/home/industries/technology-media-telecom.html">
+            <div class="card-description">
+              At KPMG, I specialized in Technology clients and worked at the offices of several large tech companies as well as startups. Due to strong communication skills and my ability to work independently with clients, I was trusted to run my own two week-long audit.
+            </div>
+            <div class="titles-container">
+              <div class="titles">
+                <div class="company">KPMG LLP</div>
+                <div class="position">Staff Accountant, Technology, Media & Telecom</div>
+                <div class="dates">September 2017 - December 2017</div>
+              </div>
+            </div>
+          </a>
       </div>
     </div>
   </body>
